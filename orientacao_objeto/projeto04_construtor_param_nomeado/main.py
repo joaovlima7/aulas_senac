@@ -19,3 +19,23 @@ animal3 = Animal()
 tobias = Animal
 felipe = Animal
 bob = Animal
+
+# Saída
+
+print('-'*70)
+print(animal1)
+print('-'*70)
+print(animal2)
+print('-'*70)
+print(animal3)
+print('-'*70)
+print()
+
+print('-'*70)
+print(tobias)
+print('-'*70)
+print(felipe)
+print('-'*70)
+print(bob)
+print('-'*70)
+print()
