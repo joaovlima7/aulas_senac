@@ -15,4 +15,6 @@ class Equacao:
     # Método para encontrar Delta e as raízes
     def equacao(a, b, c):
         d = pow(b, 2) - 4*a*c
-        x1 = (-b )
+        x1 = (-b + math.sqrt(d)) / 2*a
+        x2 = (-b - math.sqrt(d)) / 2*a
+        return x1, x2
